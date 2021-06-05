@@ -75,7 +75,7 @@ partnerRouter
     (req, res) => {
       res.statusCode = 403;
       res.end(
-        `POST operation not supported on /partners/${req.params.partnerId}`
+        `POST operation not supported on /partners/${ req.params.partnerId }`
       );
     }
   )
